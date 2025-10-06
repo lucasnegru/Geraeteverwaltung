@@ -9,19 +9,14 @@ import lombok.Setter;
 @NoArgsConstructor
 @Getter
 @Setter
-public class Raeume {
 
-    public int raumnummer;
+public class Netzwerkgeraete {
 
-    public int gebaeudenummer;
+    public int ng_id;
 
-    public int personalnummer;
+    public int inventarnummer;
 
-    public String bezeichnung;
+    public String ipv4adresse;
 
-    public int laenge;
-
-    public int breite;
-
-
+    public String hostname;
 }
